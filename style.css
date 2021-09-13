@@ -1,0 +1,56 @@
+body {
+  
+    background-image: url(./background_image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position:center;
+    font-family: Verdana;
+}
+.headings1{
+    text-align: center;
+    color: :rgb(18, 11, 26)
+}
+.border{
+    border-style: ridge;
+    width: 40% ; 
+    border-width: thick;
+    border-color:royalblue;
+    float: left;
+    margin:20px 20px 20px;
+}
+
+.border h2  {
+    padding: center ;
+    text-decoration-color: rgb(29, 173, 16) ;
+    color:rgb(18, 11, 26)
+}
+#instrument-info-p {
+    font-family: 'Libre Baskerville';
+    src: url(/final_project/LibreBaskerville-Bold.ttf);
+}
+
+.border div a {
+    display: block;
+}
+
+
+.break{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav a {
+    text-decoration:underline;
+    word-spacing: normal; 
+    text-shadow: 1px 1px 5px rebeccapurple;   
+}
+nav a:hover{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+nav{
+    height: 50px;
+   
+}
